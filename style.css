@@ -1,0 +1,95 @@
+/* Fondo general y centrado de todo */
+body {
+    font-family: Arial, sans-serif;
+    background: #000; /* fondo negro */
+    color: #fff;      /* texto blanco */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor-principal {
+    text-align: center; /* centra todo horizontalmente */
+    width: 100%;
+}
+
+/* Contenedor principal del formulario y lista */
+main {
+    background: #1a1a1a;  /* fondo gris oscuro */
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Encabezados */
+header h1 {
+    font-size: 3rem;
+    color: #ff5733;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #ff8c33;
+    margin-bottom: 1rem;
+}
+
+/* Formulario */
+form input, form button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form input {
+    background: #333;
+    color: #fff;
+}
+
+form input::placeholder {
+    color: #bbb;
+}
+
+button {
+    background: #ff5733;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e04e2a;
+}
+
+/* Lista de turnos */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #333;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background: #ff3333;
+    padding: 0.3rem 0.6rem;
+}
+
+li button:hover {
+    background: #cc0000;
+}

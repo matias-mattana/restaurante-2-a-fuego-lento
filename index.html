@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>A Fuego Lento - Reservas</title>
+   <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>A Fuego Lento</h1>
+    </header>
+
+    <main>
+        <!-- Formulario para reservar -->
+        <section id="reservar-turno">
+            <h2>Reservar un Turno</h2>
+            <form id="form-turno">
+                <input type="text" id="nombre" placeholder="Nombre completo" required>
+                <input type="number" id="personas" placeholder="Cantidad de personas" min="1" required>
+                <input type="date" id="fecha" required>
+                <input type="time" id="hora" required>
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
+
+        <!-- Lista de reservas -->
+        <section id="lista-turnos">
+            <h2>Turnos Reservados</h2>
+            <ul id="turnos"></ul>
+        </section>
+    </main>
+
+    
+</body>
+</html>
